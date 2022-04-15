@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.px1{
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+.mt2{
+  margin-top: 2rem;
+}
+
+.todo{
+  margin-bottom: 2rem;
+}
+
+.todo.completed span{
+  text-decoration: line-through;
+}
+
+.todo label{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 1rem;
+  background-color: #f3f3f3;
+}
+
+.todo i{
+  z-index: 2;
+}
